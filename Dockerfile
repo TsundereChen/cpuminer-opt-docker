@@ -6,11 +6,10 @@ RUN apt update && apt upgrade -y && apt install -y git libcurl4-openssl-dev libn
 
 WORKDIR /root
 
-RUN git clone https://github.com/JayDDee/cpuminer-opt
+RUN git clone https://github.com/hmage/cpuminer-opt
 
 WORKDIR /root/cpuminer-opt
 
 RUN ./build.sh
 
 ENTRYPOINT ["/root/cpuminer-opt/cpuminer"]
-
