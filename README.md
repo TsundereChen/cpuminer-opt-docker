@@ -1,7 +1,7 @@
 cpuminer-opt-docker
 ===================
 
-This is a dockerfile for cpuminer-opt from JayDDee,
+This is a dockerfile for cpuminer-opt from hmage,
 to run it, simply pull this docker image
 
 > docker pull kisekinoashita/cpuminer-opt-docker
